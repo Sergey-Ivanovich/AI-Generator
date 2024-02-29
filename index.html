@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Generator</title>
@@ -13,7 +14,7 @@
       </header>
       <hr />
       <main>
-        <form>
+        <form id="form">
           <input
             class="prompt-box"
             type="text"
@@ -25,7 +26,7 @@
           />
           <input class="submit-button" type="submit" />
         </form>
-        <div class="reply-container">hello</div>
+        <div class="reply-container" id="reply-box">hello</div>
       </main>
       <hr />
       <footer>
