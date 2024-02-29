@@ -6,11 +6,13 @@ h1 {
   text-align: center;
 }
 
+/*
 main {
   border-radius: 10px;
-  /*background-color: aliceblue;*/
+  background-color: aliceblue;
   padding: 20px;
 }
+*/
 
 hr {
   border: 1px solid black;
@@ -38,9 +40,13 @@ a:hover {
   display: block;
   margin: 90px auto;
   max-width: 700px;
+}
+
+.border-container {
+  margin-top: 10px;
   padding: 10px;
-  border-radius: 10px;
   border: 3px solid black;
+  border-radius: 10px;
 }
 
 .prompt-box {
@@ -75,6 +81,10 @@ a:hover {
   margin: 10px 0px;
 }
 
+.hidden {
+  display: none;
+}
+
 .example-text {
   color: rgba(0, 0, 0, 0.2);
 }
@@ -83,4 +93,19 @@ footer {
   margin: 20px 0 10px;
   text-align: center;
   font-size: 13px;
+}
+
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }

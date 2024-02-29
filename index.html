@@ -10,11 +10,12 @@
   </head>
   <body>
     <div class="container">
-      <header>
-        <h1>AI Travel Advice Generator</h1>
-      </header>
-      <hr />
-      <main>
+      <div class="border-container">
+        <header>
+          <h1>AI Travel Advice Generator</h1>
+        </header>
+        <hr />
+
         <form id="form">
           <input
             id="user-prompt"
@@ -28,28 +29,32 @@
           />
           <input class="submit-button" type="submit" />
         </form>
-        <div class="reply-container" id="reply-box">
-          <span class="example-text">
-            Enter Anything related to Travelling in the box above, EG: Saudi
-            Arabia, Is Dubai a nice Vacation City?, Etihad, Etc
-          </span>
-        </div>
-      </main>
-      <hr />
-      <footer>
-        This Project was Coded by
-        <a href="https://github.com/Sergey-Ivanovich" target="_blank">ERIC N</a>
-        and is Open-Sourced on
-        <a
-          href="https://github.com/Sergey-Ivanovich/AI-Generator"
-          target="_blank"
-          >GitHub</a
-        >
-        and Hosted on
-        <a href="https://ai-generator-page.netlify.app" target="_blank"
-          >Netlify</a
-        >
-      </footer>
+      </div>
+      <div class="reply-container hidden" id="reply-box">
+        <span class="example-text">
+          Enter Anything related to Travelling in the box above, EG: Saudi
+          Arabia, Is Dubai a nice Vacation City?, Etihad, Etc
+        </span>
+      </div>
+
+      <div class="border-container">
+        <footer>
+          This Project was Coded by
+          <a href="https://github.com/Sergey-Ivanovich" target="_blank"
+            >ERIC N</a
+          >
+          and is Open-Sourced on
+          <a
+            href="https://github.com/Sergey-Ivanovich/AI-Generator"
+            target="_blank"
+            >GitHub</a
+          >
+          and Hosted on
+          <a href="https://ai-generator-page.netlify.app" target="_blank"
+            >Netlify</a
+          >
+        </footer>
+      </div>
     </div>
     <script src="src/index.js"></script>
   </body>
