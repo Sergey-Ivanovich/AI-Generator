@@ -1,3 +1,83 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+h1 {
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+hr {
+  border: 1px solid black;
+  height: 1px;
+  background-color: black;
+  margin: 15px -10px;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+  transition: all 150ms ease-in-out;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  min-width: 650px;
+  display: block;
+  margin: 90px auto;
+  max-width: 700px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+
+.prompt-box {
+  font-size: 15px;
+  border: 3px solid rgba(109, 109, 109, 0.5);
+  width: 80%;
+  border-radius: 10px 0px 0px 10px;
+  padding: 10px;
+}
+
+.submit-button {
+  position: relative;
+  bottom: 2px;
+  font-size: 11px;
+  border-radius: 0px 10px 10px 0px;
+  border: none;
+  padding: 15px;
+
+  width: 15%;
+}
+.submit-button:active {
+  border: 3px solid gray;
+  padding: 12px;
+  box-shadow: inset 0px 0px 10px 10px rgba(0, 0, 0, 0.041);
+}
+
+.reply-container {
+  border-radius: 3px;
+  background-color: rgba(0, 0, 255, 0.045);
+  border-left: 3px solid blue;
+  padding: 20px;
+  margin: 10px 0px;
+}
+
+footer {
+  margin: 20px 0 10px;
+  text-align: center;
+  font-size: 13px;
+}
