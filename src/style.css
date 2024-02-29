@@ -8,7 +8,7 @@ h1 {
 
 main {
   border-radius: 10px;
-  background-color: aliceblue;
+  /*background-color: aliceblue;*/
   padding: 20px;
 }
 
@@ -21,9 +21,6 @@ hr {
 
 form {
   text-align: center;
-}
-
-input {
 }
 
 a {
